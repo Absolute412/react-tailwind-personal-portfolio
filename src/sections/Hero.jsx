@@ -75,11 +75,15 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
+              <Button size="lg" href="#contact">
                 Contact Me <ArrowRight classNamew-5 h-5 />
               </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5"/> Download CV
+              <AnimatedBorderButton
+                href="/Alvin_Egwuonye_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                 View Resume
               </AnimatedBorderButton>
             </div>
 
@@ -87,13 +91,15 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/Absolute412" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/alvin-egwuonye-b9846a39b/" },
+                { icon: Twitter, href: "https://x.com/KingAlvin412" },
               ].map((social, idx) => (
                 <a 
                   key={idx} 
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                     {<social.icon className="w-5 h-5"/>}

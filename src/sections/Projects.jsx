@@ -5,11 +5,11 @@ const projects = [
   {
     title: "PanelVerse",
     description: 
-      "PanelVerse is a modern manga reader designed for desktop users, built with React and Tailwind CSS. The application integrates real-world REST APIs to fetch manga data, supports browsing and search functionality, and focuses on delivering a smooth, distraction-free reading experience through clean UI and thoughtful layout decisions.",
+      "PanelVerse is a modern manga reader designed for desktop users, built with React and Tailwind CSS. The application integrates real-world REST APIs to fetch manga data, supports browsing and search functionality, and focuses on delivering a smooth, distraction-free reading experience through clean UI and thoughtful layout decisions. The project is actively evolving, with plans to expand features and improve performance.",
     image: "/projects/project1.png",
     tags: ["React", "Tailwindcss", "RestAPI"],
-    link: "#",
-    github: "#",
+    link: "https://panel-verse-two.vercel.app/",
+    github: "https://github.com/Absolute412/PanelVerse",
   }
 ];
 
@@ -59,12 +59,16 @@ export const Projects = () => {
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a 
                     href={project.link} 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
                   <a 
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <Github className="w-5 h-5" />
@@ -108,7 +112,11 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
+          <AnimatedBorderButton
+            href="https://github.com/Absolute412"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
             View All Projects
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
