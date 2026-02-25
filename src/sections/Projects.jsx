@@ -10,7 +10,25 @@ const projects = [
     tags: ["React", "Tailwindcss", "RestAPI"],
     link: "https://panel-verse-two.vercel.app/",
     github: "https://github.com/Absolute412/PanelVerse",
-  }
+  },
+  {
+    title: "Todo app",
+    description: 
+      "A clean, responsive task management app built with React and Tailwind CSS. It lets users add, edit, complete, and remove tasks with a simple workflow focused on speed and clarity. The interface is designed to keep daily planning lightweight and easy to maintain.",
+    image: "/projects/project2.png",
+    tags: ["React", "Tailwindcss"],
+    link: "https://todo-app-blond-eight-86.vercel.app/",
+    github: "https://github.com/Absolute412/todo-app",
+  },
+  {
+    title: "Pomodoro timer",
+    description: 
+      "A focused productivity timer built with React and Tailwind CSS using the Pomodoro technique. Users can run timed work and break sessions, reset cycles, and stay on track with a minimal, distraction-free interface. The project emphasizes practical time management through a simple UX.",
+    image: "/projects/project3.png",
+    tags: ["React", "Tailwindcss"],
+    link: "https://pomodoro-timer-coral-nu.vercel.app/",
+    github: "https://github.com/Absolute412/pomodoro-timer",
+  },
 ];
 
 export const Projects = () => {

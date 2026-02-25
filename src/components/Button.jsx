@@ -12,7 +12,7 @@ export const Button = ({ className="", size="default", href, children, ...props 
 
     if (href) {
         return (
-            <a href={href} className={classes}>
+            <a href={href} className={classes} {...props}>
                 <span className="relative flex items-center justify-center gap-2">
                     {children}
                 </span>
