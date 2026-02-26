@@ -19,7 +19,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img 
-          src="/hero-bg.jpg" 
+          src="/hero-bg.png" 
           alt="Hero image" 
           className="w-full h-full object-cover opacity-40"
         />
@@ -33,7 +33,7 @@ export const Hero = () => {
             key={i}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
-              backgroundColor: "#20B2A6",
+              backgroundColor: "#2F8CFF",
               left: `${Math.random() * 100}%` ,
               top: `${Math.random() * 100}%`,
               animation: `slow-drift ${
@@ -128,7 +128,7 @@ export const Hero = () => {
                 {/* Floating Badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
+                    <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">Available for work</span>
                   </div>
                 </div>
