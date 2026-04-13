@@ -12,10 +12,19 @@ const projects = [
     github: "https://github.com/Absolute412/PanelVerse",
   },
   {
+    title: "Meal Planner",
+    description: 
+      "A full-stack meal planning app built with a FastAPI backend and secure user authentication. The planner lets users schedule meals using an interactive calendar and week view, both supporting drag-and-drop meal assignment for fast, intuitive planning. It also includes a grocery page to manage shopping lists and a recipe browsing page powered by TheMealDB so users can discover and save recipes while planning meals.",
+    image: "/projects/project2.png",
+    tags: ["React", "Tailwindcss", "FastAPI"],
+    link: "https://meal-plannerv2-frontend.vercel.app/",
+    github: "https://github.com/Absolute412/meal-plannerv2-frontend",
+  },
+  {
     title: "Todo app",
     description: 
       "A clean, responsive task management app built with React and Tailwind CSS. It lets users add, edit, complete, and remove tasks with a simple workflow focused on speed and clarity. The interface is designed to keep daily planning lightweight and easy to maintain.",
-    image: "/projects/project2.png",
+    image: "/projects/project3.png",
     tags: ["React", "Tailwindcss"],
     link: "https://todo-app-blond-eight-86.vercel.app/",
     github: "https://github.com/Absolute412/todo-app",
@@ -24,7 +33,7 @@ const projects = [
     title: "Pomodoro timer",
     description: 
       "A focused productivity timer built with React and Tailwind CSS using the Pomodoro technique. Users can run timed work and break sessions, reset cycles, and stay on track with a minimal, distraction-free interface. The project emphasizes practical time management through a simple UX.",
-    image: "/projects/project3.png",
+    image: "/projects/project4.png",
     tags: ["React", "Tailwindcss"],
     link: "https://pomodoro-timer-coral-nu.vercel.app/",
     github: "https://github.com/Absolute412/pomodoro-timer",

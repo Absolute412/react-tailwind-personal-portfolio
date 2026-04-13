@@ -1,7 +1,7 @@
 
 const experiences = [
   {
-    period: "2023 — Present",
+    period: "2023 — 2025",
     role: "Software Engineering Student",
     company: "NIIT",
     description:
