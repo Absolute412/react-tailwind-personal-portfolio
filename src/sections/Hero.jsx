@@ -79,7 +79,7 @@ export const Hero = () => {
                 Contact Me <ArrowRight classNamew-5 h-5 />
               </Button>
               <AnimatedBorderButton
-                href="/Alvin_Egwuonye_Resume.pdf"
+                href="/Alvin_Egwuonye_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
